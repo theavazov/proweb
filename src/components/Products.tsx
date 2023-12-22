@@ -15,7 +15,7 @@ export default function Products({
   return (
     <section>
       {isLoading ? (
-        <div className="container grid grid-cols-4 gap-[20px]">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[20px]">
           <div className="skeleton card"></div>
           <div className="skeleton card"></div>
           <div className="skeleton card"></div>
@@ -26,7 +26,7 @@ export default function Products({
           <div className="skeleton card"></div>
         </div>
       ) : (
-        <div className="container grid grid-cols-4 gap-[20px]">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[20px]">
           {products.length > 0
             ? products
                 .filter(

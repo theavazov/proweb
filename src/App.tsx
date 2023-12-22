@@ -38,7 +38,7 @@ export default function App() {
       <main className="flex-auto mt-[73px] flex flex-col gap-[24px] pt-[24px] pb-[40px]">
         <section>
           <div className="container flex flex-col items-center gap-[24px]">
-            <h1 className="font-bold text-4xl text-black-800">
+            <h1 className="font-bold text-lg md:text-4xl text-black-800">
               Proweb - Тестовое задание
             </h1>
             <form className="flex border border-[#eeee] max-w-lg w-full">
